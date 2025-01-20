@@ -1,0 +1,16 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+from time import sleep
+
+# entrar no site da - https://pje-consulta-publica.tjmg.jus.br/
+driver = webdriver.Chrome()
+# digitar número oab e selecionar estado
+# clicar em pesquisar
+# entrar em cada um dos processos 
+# extrair o n° do processo e data da distribuição
+# extrair e guardar todas as últimas movimentações
+# guardar tudo no excel, separados por processo
+
+//input[@id="fPP:Decoration:numeroOAB"]
